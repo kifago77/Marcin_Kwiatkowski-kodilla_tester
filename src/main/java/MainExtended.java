@@ -8,10 +8,11 @@ public class MainExtended{
         System.out.println(engine);
         char carClass = 'F';
         System.out.println(carClass);
-        boolean isNotGood = false;
-        System.out.println(isNotGood);
-        System.out.println(CarName);
-
-
+        boolean isnotGood = false;
+        System.out.println(isnotGood);
     }
+
+
+
 }
+

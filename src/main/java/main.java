@@ -1,5 +1,5 @@
 public class main {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         String myName = "Marcin";
         int myAge = 44;
         double height = 1.80;
@@ -9,6 +9,8 @@ public class main {
         System.out.println(height);
         System.out.println(carClass);
         System.out.println(isGoodProgrammer);
+        String example = "seyHello";
+        System.out.println(example);
 
 
 
