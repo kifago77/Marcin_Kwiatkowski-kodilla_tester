@@ -1,4 +1,4 @@
-public class sumAndDisplay {
+public class sum {
     public static void main(String[] args) {
         sumAndDisplay(3 , 8);
     }

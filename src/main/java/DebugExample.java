@@ -5,8 +5,8 @@ public class DebugExample {
 
         System.out.println(firstNumber);
         System.out.println(secondNumber);
-        sumAndDisplay.sumAndDisplay(firstNumber, secondNumber);
-        System.out.println(sumAndDisplay.sum(30, 22));
+        sum.sumAndDisplay(firstNumber, secondNumber);
+        System.out.println(sum.sum(30, 22));
         if (firstNumber > secondNumber) {
             subtractAndDisplay(firstNumber, secondNumber);
         } else {
