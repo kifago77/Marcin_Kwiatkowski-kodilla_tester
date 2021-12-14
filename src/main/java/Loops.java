@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Loops {
     public static void main(String[] args) {
         for (int i = 0; i <= 10; i++)
@@ -19,10 +21,20 @@ public class Loops {
         }
 
 
-    }
+        }
+        public static int sumNumber(int[] numbers) {
+        int result = 0;
+        for (int i = 0 ; i < numbers.length; i++) {
+            result = result + numbers[i];
+        }
+        return result;
+        }
 
 
     }
+
+
+
 
 
 
