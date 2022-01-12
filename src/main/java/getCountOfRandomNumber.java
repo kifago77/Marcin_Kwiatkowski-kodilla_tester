@@ -8,6 +8,7 @@ public class getCountOfRandomNumber {
         int max = 10;
         int temp = random.nextInt(10);
         System.out.println(random.nextInt(2));
+        
         }
 
         }
