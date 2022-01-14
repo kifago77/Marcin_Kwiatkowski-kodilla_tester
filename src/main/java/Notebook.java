@@ -13,6 +13,10 @@ public class Notebook {
             System.out.println("This notebook is very cheap.");
         }
 
+        if(this.price < 600 && this.price > 1000) {
+            System.out.println("The price is good.");
+        }
+
         if (this.price > 1000) {
             System.out.println("This notebook is expensive.");
         }
