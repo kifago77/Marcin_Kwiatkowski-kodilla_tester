@@ -15,17 +15,18 @@ public class Grades {
         this.size++;
     }
     public void getLastGrades() {
-        int grade = grades[9];
-        System.out.println(grades[9]);
+        int grade = grades[size-1];
+        System.out.println(grade);
     }
     public void getAverage() {
-        int quantity = grades.length;
+        int quantity = size;
         int sum = 0;
-        for (int i =0; i < grades.length; i++); {
-            sum += grades[10];
-            int average = sum/quantity;
-            System.out.println(average);
+        for (int i =0; i < size; i++) {
+            sum += grades[i];
+
         }
+        int average = sum/quantity;
+        System.out.println(average);
 
 
     }
