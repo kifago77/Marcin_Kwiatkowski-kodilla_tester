@@ -4,6 +4,9 @@ public class GradesVerification {
         grades.add(9);
         grades.add(1);
         grades.getLastGrades();
+        grades.getAverage();
+
+
 
         }
 
