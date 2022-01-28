@@ -14,7 +14,6 @@ public class User {
         return this.age;
     }
 
-
     public static void main(String[] args) {
         User marcin = new User("marcin", 45);
         User sylwia = new User("sylwia" , 42);
@@ -27,20 +26,27 @@ public class User {
         User lukasz = new User("lukasz", 38);
         User ewa = new User("ewa",35);
         User piotr = new User("piotr", 35 );
-        User laura = new User("laura" , 2);
 
-        User[] users = {marcin,sylwia,wiktoria,mikolaj,franciszek,stanislaw,miroslawa,romana,lukasz,ewa,piotr,laura};
+        User[] users = {marcin,sylwia,wiktoria,mikolaj,franciszek,stanislaw,miroslawa,romana,lukasz,ewa,piotr};
 
 
-        int numberName = users.length;
-        System.out.println(numberName);
-
-        int numberAge = users.length;
-        System.out.println(numberAge);
-
-        for (int i =0; i <= users.length; i ++){
+        int result = 0;
+        for(int i = 0; i< users.length; i ++) {
+            result = result + users[i].getAge();
 
         }
+        int average = result % users.length;
+        System.out.println(average);
+
+
+
+
+
+
+
+
+
+
 
     }
 
