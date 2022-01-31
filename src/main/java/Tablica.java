@@ -3,7 +3,6 @@ public class Tablica {
         String[] movie = new String[]{"Harry", "Potter", "Gra", "Oś Zła"};
         System.out.println();
 
-        int numberMovie = movie.length;
         System.out.println(movie.length);
 
         String[] film = new String[3];
