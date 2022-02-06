@@ -19,9 +19,14 @@ public class Tab {
         int sum = tab[0][2] + tab[1][0];
         System.out.println(sum);
 
+        int number = 8;
 
-
-
+        System.out.println(number);
+         if(number % 2 == 0 ) {
+             System.out.println("Liczba jest parzysta");
+         }else {
+             System.out.println("Liczba jest nieparzysta");
+         }
 
     }
 
