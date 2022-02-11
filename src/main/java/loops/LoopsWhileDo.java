@@ -1,3 +1,5 @@
+package loops;
+
 public class LoopsWhileDo {
     public static void main(String[] args) {
         //Petla while;

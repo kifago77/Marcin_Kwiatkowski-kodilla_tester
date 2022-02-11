@@ -1,3 +1,5 @@
+package loops;
+
 public class LoopsFor {
     public static void main(String[] args) {
        // Wypisz na ekran liczby od 0 do 30, a następnie od 30 do 0.

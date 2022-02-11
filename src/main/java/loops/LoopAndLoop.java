@@ -1,3 +1,5 @@
+package loops;
+
 public class LoopAndLoop {
     //Pętla w pętli.
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package loops;
+
 public class LoopsBreakContiniu {
     public static void main(String[] args) {
         int number;

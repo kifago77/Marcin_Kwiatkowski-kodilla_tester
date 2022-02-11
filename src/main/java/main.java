@@ -6,6 +6,7 @@ public class main {
         char carClass = 'A';
         boolean isGoodProgrammer = true;
         System.out.println(myName);
+        System.out.println(myAge);
         System.out.println(height);
         System.out.println(carClass);
         System.out.println(isGoodProgrammer);

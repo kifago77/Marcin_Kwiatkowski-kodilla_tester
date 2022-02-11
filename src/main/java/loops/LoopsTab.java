@@ -1,3 +1,5 @@
+package loops;
+
 public class LoopsTab {
     public static void main(String[] args) {
         //Tworzenie Petli i Tablicy o indeksie 10
