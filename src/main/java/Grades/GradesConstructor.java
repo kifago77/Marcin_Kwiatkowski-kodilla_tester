@@ -1,9 +1,11 @@
-public class Grades {
+package Grades;
+
+public class GradesConstructor {
 
     private int[] grades;
     private int size;
 
-    public Grades() {
+    public GradesConstructor() {
         this.grades = new int[10];
         this.size = 0;
     }
