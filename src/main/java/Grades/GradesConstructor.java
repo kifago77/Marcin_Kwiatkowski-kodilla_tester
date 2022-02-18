@@ -15,12 +15,13 @@ public class GradesConstructor {
         }
         this.grades[this.size] = value;
         this.size++;
+
     }
-    public void getLastGrades() {
+    public int getLastGrades() {
         int grade = grades[size-1];
-        System.out.println(grade);
+        return grade;
     }
-    public void getAverage() {
+    public int getAverage() {
         int quantity = size;
         int sum = 0;
         for (int i =0; i < size; i++) {
@@ -28,7 +29,7 @@ public class GradesConstructor {
 
         }
         int average = sum/quantity;
-        System.out.println(average);
+        return average;
 
 
     }

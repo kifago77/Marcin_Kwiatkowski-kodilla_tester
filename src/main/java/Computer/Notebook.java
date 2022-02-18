@@ -1,14 +1,17 @@
 package Computer;
 
 public class Notebook {
-    String weight;
+    String name;
     int price;
     int year;
+    int weight;
 
-    public Notebook(String weight, int price, int year) {
-        this.weight = weight;
+
+    public Notebook(String name, int price, int year, int weight) {
+        this.name = name;
         this.price = price;
         this.year = year;
+        this.weight = weight;
     }
 
     //Dodanie w konstruktorze nowej metody,
@@ -29,6 +32,13 @@ public class Notebook {
             System.out.println("Is ok");
         } else {
             System.out.println("This notebook is old");
+        }
+    }
+    public void cheekWeight() {
+        if (this.weight <= 1250) {
+            System.out.println("This Notebook is light");
+        } else {
+            System.out.println("Tis Notebook is very heavy");
         }
     }
 }
