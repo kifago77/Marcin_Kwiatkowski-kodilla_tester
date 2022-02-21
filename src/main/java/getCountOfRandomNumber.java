@@ -7,7 +7,7 @@ public class getCountOfRandomNumber {
         int sum = 0;
         int max = 10;
         int temp = random.nextInt(10);
-        System.out.println(random.nextInt(2));
+        System.out.println(random.nextInt(9));
         
         }
 
