@@ -9,8 +9,11 @@ public class Calculator {
         return a - b;
     }
 
-    public int square(int a ){
-        return a ^ a;
+    public int square(int a){
+        return a * a;
+
+
+
     }
     public int division(int a, int b){
         return a * b;
