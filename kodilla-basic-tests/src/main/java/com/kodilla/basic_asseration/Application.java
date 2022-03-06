@@ -1,4 +1,4 @@
-package bassic_assertion;
+package com.kodilla.basic_asseration;
 
 public class Application {
     public static void main(String[] args) {
@@ -36,8 +36,6 @@ public class Application {
         }else {
             System.out.println("Obliczenie jest bledne");
         }
-
-
 
 
     }
