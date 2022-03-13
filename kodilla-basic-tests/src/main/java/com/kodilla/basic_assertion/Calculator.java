@@ -1,4 +1,4 @@
-package com.kodilla.basic_asseration;
+package com.kodilla.basic_assertion;
 
 public class Calculator {
         public int sumNumber(int a , int b){
