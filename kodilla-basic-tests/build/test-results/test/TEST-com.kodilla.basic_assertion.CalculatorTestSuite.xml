@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.basic_assertion.CalculatorTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-13T18:04:13" hostname="MARCIN" time="0.012">
+  <properties/>
+  <testcase name="testSum()" classname="com.kodilla.basic_assertion.CalculatorTestSuite" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
