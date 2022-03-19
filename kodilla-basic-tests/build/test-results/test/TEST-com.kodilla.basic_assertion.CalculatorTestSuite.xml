@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.basic_assertion.CalculatorTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-16T16:35:45" hostname="MARCIN" time="0.017">
+  <properties/>
+  <testcase name="testDivision()" classname="com.kodilla.basic_assertion.CalculatorTestSuite" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
