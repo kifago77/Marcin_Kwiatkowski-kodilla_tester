@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.basic_assertion.CalculatorTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-16T16:35:45" hostname="MARCIN" time="0.017">
+<testsuite name="com.kodilla.basic_assertion.CalculatorTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-25T15:41:10" hostname="MARCIN" time="0.033">
   <properties/>
-  <testcase name="testDivision()" classname="com.kodilla.basic_assertion.CalculatorTestSuite" time="0.017"/>
+  <testcase name="testSquare()" classname="com.kodilla.basic_assertion.CalculatorTestSuite" time="0.033"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

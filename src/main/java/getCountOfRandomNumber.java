@@ -6,8 +6,8 @@ public class getCountOfRandomNumber {
         int result = 0;
         int sum = 0;
         int max = 10;
-        int temp = random.nextInt(10);
-        System.out.println(random.nextInt(9));
+        int temp = random.nextInt(5);
+        System.out.println(random.nextInt(8));
         
         }
 
