@@ -2,8 +2,8 @@ package com.kodilla.inheritance;
 
 public class OperatingSystem {
     private int years;
-    public OperatingSystem(){
-        this.years = 2020;
+    public OperatingSystem(int years){
+        this.years = years;
     }
 
 

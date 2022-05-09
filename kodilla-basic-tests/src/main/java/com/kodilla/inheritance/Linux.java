@@ -1,8 +1,10 @@
 package com.kodilla.inheritance;
 
 public class Linux extends OperatingSystem{
-    public void linux(){
-        System.out.println("System Operacyjny Linux");
+
+    public Linux(int years){
+        super(2000);
+        System.out.println("System Operacyjny Linux OFF");
     }
     @Override
     public void turnOn() {
