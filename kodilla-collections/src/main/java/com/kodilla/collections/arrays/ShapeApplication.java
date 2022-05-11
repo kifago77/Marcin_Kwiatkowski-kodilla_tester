@@ -24,7 +24,7 @@ import java.util.Random;
             double b = random.nextDouble() * 100 + 1;
             double c = random.nextDouble() * 100 + 1;
             if (drawnShapeKind == 0)
-                return new Circle();
+                return new Circle(7);
             else if (drawnShapeKind == 1)
                 return new Square(a);
             else

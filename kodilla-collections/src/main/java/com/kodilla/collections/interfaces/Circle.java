@@ -3,8 +3,8 @@ package com.kodilla.collections.interfaces;
 public class Circle implements Shape {
      private double radius;
 
-    public Circle(){
-        this.radius = 7;
+    public Circle(int radius){
+        this.radius = radius;
     }
 
     public double getArea(){
@@ -16,5 +16,10 @@ public class Circle implements Shape {
         return 2 * Math.PI * radius;
     }
 
-
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                '}';
+    }
 }

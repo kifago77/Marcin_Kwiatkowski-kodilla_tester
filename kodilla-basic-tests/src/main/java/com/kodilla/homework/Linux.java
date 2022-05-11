@@ -1,8 +1,10 @@
-package com.kodilla.inheritance;
+package com.kodilla.homework;
 
-public class Linux extends OperatingSystem{
+import com.kodilla.homework.OperatingSystem;
 
-    public Linux(int years){
+public class Linux extends OperatingSystem {
+
+    public Linux(){
         super(2000);
         System.out.println("System Operacyjny Linux OFF");
     }

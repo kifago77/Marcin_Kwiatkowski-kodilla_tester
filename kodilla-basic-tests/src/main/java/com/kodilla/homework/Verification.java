@@ -1,4 +1,4 @@
-package com.kodilla.inheritance;
+package com.kodilla.homework;
 
 public class Verification {
     public static void main(String[] args) {
@@ -6,11 +6,11 @@ public class Verification {
         operatingSystem.turnOff();
         operatingSystem.turnOn();
         System.out.println();
-        Windows windows = new Windows(2020);
+        Windows windows = new Windows();
         windows.turnOff();
         windows.turnOn();
         System.out.println();
-        Linux linux = new Linux(2000);
+        Linux linux = new Linux();
         linux.turnOff();
         linux.turnOn();
 

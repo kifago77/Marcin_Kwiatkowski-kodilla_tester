@@ -1,7 +1,9 @@
-package com.kodilla.inheritance;
+package com.kodilla.homework;
+
+import com.kodilla.homework.OperatingSystem;
 
 public class Windows extends OperatingSystem {
-    public  Windows(int years){
+    public  Windows(){
         super(2020);
 
         System.out.println("System operacyjny Windows ON");

@@ -1,4 +1,4 @@
-package com.kodilla.inheritance;
+package com.kodilla.homework;
 
 public class OperatingSystem {
     private int years;
