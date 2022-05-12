@@ -8,8 +8,13 @@ public class CarRace {
         System.out.println(lexus.getSpeed());
 
         Mercedes mercedes = new Mercedes();
-        System.out.println();
+        mercedes.decreaseSpeed();
+        mercedes.increaseSpeed();
+        System.out.println(mercedes.getSpeed());
         Porsche porsche = new Porsche();
+        porsche.decreaseSpeed();
+        porsche.increaseSpeed();
+        System.out.println(porsche.getSpeed());
         doRace(mercedes);
         doRace(porsche);
         doRace(lexus);
