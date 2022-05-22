@@ -4,7 +4,6 @@ plugins {
 
 group 'com.kodilla'
 version '1.0-SNAPSHOT'
-souraceCompatibility = 1.8
 
 repositories {
     mavenCentral()

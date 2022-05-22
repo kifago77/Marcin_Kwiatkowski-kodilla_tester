@@ -6,4 +6,5 @@ include 'kodilla-collections'
 include 'kodilla-collections-advanced'
 include 'kodilla-collections-advanced'
 include 'kodilla-advanced-tests'
+include 'kodilla-advanced-tests'
 
