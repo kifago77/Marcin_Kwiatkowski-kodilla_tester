@@ -19,6 +19,9 @@ public class GeneralShapeListApplication {
         shapes.remove(1);
         shapes.remove(square);
 
+        Triangle triangle = new Triangle(10.0, 4.0 ,10.77);
+        shapes.remove(triangle);
+
 
         System.out.println(shapes.size());
 
