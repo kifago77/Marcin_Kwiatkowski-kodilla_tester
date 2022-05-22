@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.execution_model.homework.ShopTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-22T19:43:45" hostname="MARCIN" time="0.022">
+  <properties/>
+  <testcase name="testAddNewOrder()" classname="com.kodilla.execution_model.homework.ShopTests" time="0.022"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
