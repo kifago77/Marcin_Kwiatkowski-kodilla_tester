@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.parametrized_tests.homework.UserValidatorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-23T17:25:37" hostname="MARCIN" time="0.057">
+  <properties/>
+  <testcase name="[1] Test123" classname="com.kodilla.parametrized_tests.homework.UserValidatorTests" time="0.04"/>
+  <testcase name="[2] 123123312" classname="com.kodilla.parametrized_tests.homework.UserValidatorTests" time="0.001"/>
+  <testcase name="[3] Test1-211212" classname="com.kodilla.parametrized_tests.homework.UserValidatorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
