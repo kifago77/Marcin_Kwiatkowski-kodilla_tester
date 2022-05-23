@@ -19,4 +19,11 @@ public class School {
                 "\nprincipal = " + principal.getName() +
                 "\nname = " + name + '\n';
     }
+    public int sumOfPupils() {
+        int res = 0;
+        for (int i = 0; i < numberOfPupilsInSpecificClass.size(); i++) {
+            res += numberOfPupilsInSpecificClass.get(i);
+        }
+        return res;
+    }
 }
