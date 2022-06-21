@@ -4,9 +4,12 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="C:/Gradle/gradle-5.6" />
+        <option name="gradleJvm" value="15" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -16,6 +19,7 @@
             <option value="$PROJECT_DIR$/kodilla-collections" />
             <option value="$PROJECT_DIR$/kodilla-collections-advanced" />
             <option value="$PROJECT_DIR$/kodilla-intro" />
+            <option value="$PROJECT_DIR$/kodilla_Alert" />
           </set>
         </option>
       </GradleProjectSettings>
